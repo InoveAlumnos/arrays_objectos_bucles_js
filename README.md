@@ -3,7 +3,7 @@ Inove Escuela de Código\
 info@inove.com.ar\
 Web: [Inove](http://inove.com.ar)
 
-# ¡Introducción a bucles! [Javascript]
+# ¡Introducción a Arrays, Objectos y Bucles! [Javascript]
 En este repositorio encontrarán las siguientes carpetas:
 
 __Ejemplos que el profesor mostrará en clase__\
