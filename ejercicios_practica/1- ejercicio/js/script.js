@@ -1,24 +1,25 @@
 "use strict";
 
-/* Inove Coding School
- * Tarea! Bucles
- * Objetivos: adquirir herramientas para identificar 
- * problemas en el código, dar solución a las consignas planteadas.
- * Seleccionar cada ejercicio cambiando la variable "ejercicio"
+/* Tarea
+ * Objetivos: adquirir herramientas y poner
+ * en práctica lo visto en clase
  */
 
-// Deben generar el enlace de este documento hacia index.html
+/* Enunciado
 
-// Deben utilizar plantillas de texto para cada ejercicio.
+Utilice la variable "ejercicio" para indicarle al script que ejercicio ejecutar,
+de esta manera podrá ir realizando uno por uno los ejercicios sin que se ejecuten
+todos juntos.
+
+*/
 
 // seleccione el ejercicio a ejecutar
 
-var ejercicio = 0;
+let ejercicio = 0;
 
 if (ejercicio == 0) {
     ejercicio = prompt(`Bienvenido, ingrese el número de ejercicio que quiere realizar`);
 }
-
 
 // Ejercicios de sintaxis de "for"
 if (ejercicio == 1) {
