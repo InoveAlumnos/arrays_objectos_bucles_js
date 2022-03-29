@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: 'Chilanka', cursive;
+}
+
+header {
+    background-color: #000000;
+    color: #000000;
+    padding: 10px;
+}
+
+.list {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(8, 1fr);
+    margin-top: 1rem;
+}
+
+LI{
+    list-style: none;
+    font-size: 2.5rem;
+}
+
+label {
+    font-size: 1.5rem;
+    margin: 0.3rem 0.3rem 0 0;
+}
+
+input[type="number"] {
+    padding: 0.3rem;
+    height: 1.5rem;
+    font-size: 1.5rem;
+    border-radius: 0.3rem;
+    border-color: #FFFFFF;
+}
+
+::placeholder {
+    font-size: 1.2rem;
+}
+
+.middle-row {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+.middle-col {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.result{
+    margin: 1.5rem;
+    font-size: 10rem;
+}
+
+.input {
+    margin: 0.5rem auto;
+}
+
+@media (max-width: 1000px) {
+    .list {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .input {
+        margin: 1rem;
+    }
+    .result{
+        font-size: 6rem;
+    }
+}

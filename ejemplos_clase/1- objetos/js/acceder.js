@@ -30,7 +30,7 @@ function buscarEmail(nombre, objeto) {
 const email = buscarEmail("inove", usuarios);
 console.log(email);
 
-// objectDestructuring -> desconstruir un objeto
+// objectDestructuring -> deconstruir un objeto (mecanismo nuevo)
 const {nombre, precio, color} = objetoNotebook;
 console.log(nombre, precio, color);
 
