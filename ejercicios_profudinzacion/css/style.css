@@ -9,6 +9,7 @@
 body {
   height: 100%;
   width: 100vw;
+  /*background-color: #353b40;*/
   background-image: radial-gradient(
     circle,
     #3a3b38,
@@ -54,13 +55,13 @@ button {
 }
 
 article {
-  background: #f0f0f0;
+  background:#404d56;
   height: 200px;
   width: 200px;
   cursor: pointer;
-  border: 2px solid gray;
+  border: 2px solid rgba(0, 180, 0, 0.3);
   border-radius: 10px;
-  box-shadow: 0 5px 5px rgba(0, 255, 0, 0.3);
+  box-shadow: 0 5px 5px rgba(0, 180, 0, 0.3);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -68,6 +69,7 @@ article {
 
 article:hover {
   box-shadow: 0 2px 2px rgba(0, 255, 0, 0.3);
+  animation: bounce 0.5s linear;
 }
 
 article p{
@@ -78,7 +80,7 @@ article p{
 }
 
 article img {
-  width: 75%;
+  width: 80%;
   height: auto;
 }
 
@@ -117,4 +119,27 @@ article img {
     rgba(255, 255, 255, 1) 0%,
     rgba(122, 199, 76, 1) 100%
   );
+}
+.par {
+  background:#404d56;
+}
+.impar {
+  background:#5c7688;
+}
+
+/* Animación de bounce */
+@keyframes bounce {
+	20% {
+			transform: translateY(-6px);
+	}
+	40% {
+			transform: translateY(0px);
+	}
+
+	80% {
+			transform: translateY(-2px);
+	}
+	100% {
+			transform: translateY(0);
+	}
 }
