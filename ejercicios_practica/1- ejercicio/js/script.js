@@ -47,33 +47,55 @@ if (ejercicio == 1) {
 
 }
 
-// Plantillas de cadena de texto
+// Ejercicios de práctica numérica con bucle for
 if (ejercicio == 2) {
-    // Construya un formulario de usuario con: nombre, apellido y edad.
-    // Los datos deben solicitarse con prompt() y deben incrustarse en
-    // una plantilla de cadena de texto, luego imprimirla por consola.
+    // Realice un bucle que cuente de 0 al 9
+    // En cada iteración del bucle imprimir en consola el número
+    // o índice que irá incrementando
+    // Utilice bucle "for"
 }
 
-//  Trabajamos con texto
+// Ejercicios de práctica numérica con bucle for of
 if (ejercicio == 3) {
-    // Realizar un programa que solicite ingresar texto en pantalla.
-    // Con el texto ingresado, deben contar cuantos caracteres hay en dicho
-    // texto (espacios incluidos), cuantos espacios hay en el texto y cuantos 
-    // caracteres hay (texto - espacios) e imprimirlo por consola. 
-    // Ayuda: Deben utilizar el metodo .length y corchetes []
+    const numeros = [0, 1, 2, 3, 4, 5]
+    // Realice un bucle que recorra el array de numeros
+    // y en cada iteración imprira en la consola el valor
+    // del número recorrido
+    // Utilice bucle "for of"
 }
 
-// Ejercicios de práctica numérica
+// Ejercicios de práctica de objetos con bucle for of
 if (ejercicio == 4) {
-    // Realice un programa que solicite el ingreso de notas de alumnos comprendidas
-    // entre 0 y 100, para finalizar la carga de notas, debe ingresarse "-1".
-    // Al terminar de cargar las notas, se debe entregar el promedio y la cantidad
-    // de las notas ingresadas con una impresión en pantalla del mensaje. 
+    const personas = [
+        {
+            "nombre": "Max",
+            "apellido": "Power"
+        },
+        {
+            "nombre": "Jean",
+            "apellido": "Gray"
+        },
+        {
+            "nombre": "Minerva",
+            "apellido": "MacGonagall"
+        }
+    ];
+    // Realice un bucle que recorra el array de objetos
+    // personas.
+    // En cada iteración imprimir el nombre de la persona.
+    // Utilice bucle "for of"
+
 }
 
-// Investigación y desarrollo.
+// Ejercicios de práctica de objetos con bucle for of
 if (ejercicio == 5) {
-    // Investige en internet, qué es una función y como es su sintaxis básica,
-    // coloque aquí en un comentario qué es lo que encontró.
-
+    const personas = [];
+    // Esta vez el array de personas comenzará vacio.
+    // Realice un bucle que en cada iteración solicite
+    // al usuario con prompt un nombre y apellido.
+    // Utilizar el nombre y apellido para crear un objeto
+    // y almacene ese objeto en el array "personas".
+    // El bucle deberá ejecutarse por 2 iteraciones.
+    // Al terminarse el bucle (luego de ejecutarse todas las iteraciones)
+    // deberá imprimir en consola el contenido del array "personas"
 }
